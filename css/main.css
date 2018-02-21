@@ -138,6 +138,7 @@ DIV {
   margin-top: 38px; }
 
 .eye {
+  position: absolute;
   width: 25px;
   height: 25px;
   -webkit-border-radius: 50%;
@@ -146,7 +147,7 @@ DIV {
           box-shadow: 0 0 0 .35em white inset, 0 0 0 2em black inset; }
 
 .eye:nth-child(2) {
-  margin-left: 51px; }
+  margin-left: 79px; }
 
 .inner-eye1, .inner-eye2 {
   background-color: white;
@@ -169,7 +170,7 @@ DIV {
   height: 11px;
   -webkit-border-radius: 20px 20px 20px 20px;
           border-radius: 20px 20px 20px 20px;
-  margin-top: 5px; }
+  margin-top: 30px; }
 
 .cheek2 {
   margin-left: 20px; }
@@ -203,6 +204,7 @@ DIV {
   -webkit-border-radius: 50%;
           border-radius: 50%;
   margin-left: 40px;
+  margin-top: 25px;
   -webkit-transform: rotate(-45deg);
       -ms-transform: rotate(-45deg);
           transform: rotate(-45deg); }
